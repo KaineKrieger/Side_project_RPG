@@ -29,3 +29,50 @@ initial_choice = ("what do you choose? (enter a number corresponding with an opt
     "5 Investigate the book"
 
 )
+
+
+
+path_1 = ("You pass through the mossy doorway,",
+        " the damp yet warm corridor stretches on,",
+        " the vines from the ceiling brush against your body as you pass through",
+        " and inevitably reach the exit, the corridor then open up into",
+        " a large verdant phosphorescent cave,",
+        " moss glowing in streaks of blue and purple lights,",
+        " the green vines overshadowed by said colors",
+        " and in the center of this large cave lies a pair of statues,",
+        " one is a large beautifully made statue depicting a warrior in armor",
+        " the other is a cracked statue of what looks to be a philosopher,",
+        " both are leaning against each other and in the center of the room",
+        " appears to be a pressure plate in which one statue is meant to sit,",
+        " which statue do you choose to place on the plate?")
+
+
+path_2 = ("")
+
+
+path_3 = ("")
+
+
+
+path_4 = ("You walk over too the table, the artifact continues",
+        " to slowly and softly thrum spinning on unseen axis’,",
+        " walking forward almost forced to, compelled by strings",
+        " beyond sight or understanding, reaching your hand out,",
+        " every atom in your body trying to throw itself at the artifact",
+        " and then suddenly nothing, no sound no sensation no light no dark no noise no silence no feeling of clothes no breathing no nothing. For nothing would mean the absence of something thus creating something, sheer pure nothingness. What do you do?")
+
+
+
+path_5 = ("")
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+)
