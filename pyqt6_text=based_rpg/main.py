@@ -6,44 +6,42 @@ import text_blocks
 path = "start"
 introduction = text_blocks.introduction
 initial_choice = text_blocks.initial_choice
-
+answer = 1
 
 def menu_basics(event, question):
-    print(menu)
-    answer = int(input(question))
+    print(event)
+    return answer == int(input(question))
 
 if __name__ == "__main__":
 
-if path == "start":
-    event = introduction
-    question = initial_choice
-    menu_basics(event, question)
-    path == question
+    if path == "start":
+        event = introduction
+        question = initial_choice
+        path == menu_basics(event, question)
 
-    if path == 1:
-
-
-
-    elif path == 2:
+        if path == 1:
+            print(text_blocks.path_1)
 
 
 
-
-    elif path == 3:
+        if path == 2:
+            print(text_blocks.path_2)
 
 
 
 
-    elif path == 4:
-
-
-
-    elif path == 5:
-
+        if path == 3:
+            print(text_blocks.path_3)
 
 
 
 
+        if path == 4:
+            print(text_blocks.path_4)
+
+
+        if path == 5:
+            print(text_blocks.path_5)
 
 
 
@@ -57,8 +55,14 @@ if path == "start":
 
 
 
-else:
-    print("error, please restart code.")
+
+
+
+
+
+
+    else:
+        print("error, please restart code.")
 
 
 

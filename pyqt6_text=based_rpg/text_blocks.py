@@ -18,7 +18,7 @@ introduction = ( "You walk into the dark room, the soft sounds of the outside" +
                 " the stairs themselves slick with condensation",
                 "In the center of the room is a slightly raised platform with a pedestal on it," +
                 " on the pedestal is a large dusty book"
-    )
+)
 
 
 initial_choice = ("what do you choose? (enter a number corresponding with an option)",
@@ -44,7 +44,8 @@ path_1 = ("You pass through the mossy doorway,",
         " the other is a cracked statue of what looks to be a philosopher,",
         " both are leaning against each other and in the center of the room",
         " appears to be a pressure plate in which one statue is meant to sit,",
-        " which statue do you choose to place on the plate?")
+        " which statue do you choose to place on the plate?"
+)
 
 
 path_2 = ("")
@@ -59,7 +60,11 @@ path_4 = ("You walk over too the table, the artifact continues",
         " walking forward almost forced to, compelled by strings",
         " beyond sight or understanding, reaching your hand out,",
         " every atom in your body trying to throw itself at the artifact",
-        " and then suddenly nothing, no sound no sensation no light no dark no noise no silence no feeling of clothes no breathing no nothing. For nothing would mean the absence of something thus creating something, sheer pure nothingness. What do you do?")
+        " and then suddenly nothing, no sound no sensation no light no dark",
+        " no noise no silence no feeling of clothes no breathing no nothing.",
+        " For nothing would mean the absence of something thus creating something,",
+        " sheer pure nothingness. What do you do?"
+)
 
 
 
@@ -70,9 +75,3 @@ path_5 = ("")
           
           
           
-          
-          
-          
-          
-          
-)
