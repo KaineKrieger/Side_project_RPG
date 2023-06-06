@@ -24,17 +24,13 @@ introduction = (
 )
 
 
-initial_choice = (
-    "\nwhat do you choose? (enter a number corresponding with an option)" +
-    "\n1 Enter the mossy doorway" +
-    "\n2 Enter the dark stairwell"+
-    "\n3 Enter the spiral staircase" +
-    "\n4 touch the magical sphere" +
-    "\n5 Investigate the book"
-
-)
-
-
+initial_choice = """what do you choose? (enter a number corresponding with an option)
+    1 Enter the mossy doorway
+    2 Enter the dark stairwell
+    3 Enter the spiral staircase
+    4 touch the magical sphere
+    5 Investigate the book
+"""
 
 path_1 = ("You pass through the mossy doorway," +
         " the damp yet warm corridor stretches on," +
