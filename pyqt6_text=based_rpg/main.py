@@ -1,18 +1,24 @@
 import text_blocks
 
 
-def menu_basics(event, question):
-        print(event)
+def get_answer(question):
         answer = str(input(question))
         return answer
 
+def exposite(text: tuple):
+    for paragraph in text:
+        if paragraph != text[-1]:
+            input(paragraph +"...")
+        else:
+            input(paragraph)
 
 def initial_pathway(path):
     if path == "start":
-        event = introduction
+        text = text_blocks.introduction
         question = initial_choice
-        path = menu_basics(event, question)
-  
+        exposite(text)
+        path = get_answer(question)
+
         if path == "1":
             print(text_blocks.path_1)
         if path == 2:

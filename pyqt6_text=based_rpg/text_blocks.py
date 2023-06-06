@@ -1,23 +1,24 @@
-introduction = ( "You walk into the dark room, the soft sounds of the outside" +
-                " world fading behind you as you enter and the door shuts " +
-                "loudly behind you sending a tremor throughout the room." +
-                "You notice that there are numerous exits too the room and " +
-                "objects in the room",
-                "In the far left corner theres a doorway, coated in moss and vines," +
-                " gently swaying in a unfelt but heard wind",
-                "In the far right corner theres a table pressed against the corner," +
-                " a weird circular white and blue object shines and moves on its own," +
-                " barely floating above the table," +
-                " thrumming in a minor chord over and over again with each slow rotation.",
-                "In the right corner front he entrance you just walked through" +
-                " theres a stairway leading downward into darkness," +
-                " soft whispers come from the dark.",
-                "In the left corner from the enterene there is a spiral staircase" +
-                " leading upwards towards light, water can be heard" +
-                " through the hole in the ceiling it would lead you through," +
-                " the stairs themselves slick with condensation",
-                "In the center of the room is a slightly raised platform with a pedestal on it," +
-                " on the pedestal is a large dusty book"
+introduction = ( 
+                "You walk into the dark room, the soft sounds of the outside" +
+                "\n world fading behind you as you enter and the door shuts " +
+                "\n loudly behind you sending a tremor throughout the room." +
+                "\n You notice that there are numerous exits too the room and " +
+                "\n objects in the room",
+                "\n In the far left corner theres a doorway, coated in moss and vines," +
+                "\n gently swaying in a unfelt but heard wind",
+                "\n In the far right corner theres a table pressed against the corner," +
+                "\n a weird circular white and blue object shines and moves on its own," +
+                "\n barely floating above the table," +
+                "\n thrumming in a minor chord over and over again with each slow rotation.",
+                "\n In the right corner front he entrance you just walked through" +
+                "\n theres a stairway leading downward into darkness," +
+                "\n soft whispers come from the dark.",
+                "\n In the left corner from the enterene there is a spiral staircase" +
+                "\n leading upwards towards light, water can be heard" +
+                "\n through the hole in the ceiling it would lead you through," +
+                "\n the stairs themselves slick with condensation",
+                "\n In the center of the room is a slightly raised platform with a pedestal on it," +
+                "\n on the pedestal is a large dusty book"
 )
 
 
@@ -32,12 +33,12 @@ initial_choice = ("what do you choose? (enter a number corresponding with an opt
 
 
 
-path_1 = ("You pass through the mossy doorway,",
-        " the damp yet warm corridor stretches on,",
+path_1 = ("You pass through the mossy doorway," +
+        " the damp yet warm corridor stretches on," +
         " the vines from the ceiling brush against your body as you pass through",
-        " and inevitably reach the exit, the corridor then open up into",
-        " a large verdant phosphorescent cave,",
-        " moss glowing in streaks of blue and purple lights,",
+        " and inevitably reach the exit, the corridor then opens",
+        " up into a large verdant phosphorescent cave," +
+        " moss glowing in streaks of blue and purple lights," +
         " the green vines overshadowed by said colors",
         " and in the center of this large cave lies a pair of statues,",
         " one is a large beautifully made statue depicting a warrior in armor",
