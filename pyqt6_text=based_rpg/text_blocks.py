@@ -1,33 +1,36 @@
 introduction = ( 
-                "You walk into the dark room, the soft sounds of the outside" +
-                "\n world fading behind you as you enter and the door shuts " +
-                "\n loudly behind you sending a tremor throughout the room." +
-                "\n You notice that there are numerous exits too the room and " +
-                "\n objects in the room",
-                "\n In the far left corner theres a doorway, coated in moss and vines," +
-                "\n gently swaying in a unfelt but heard wind",
-                "\n In the far right corner theres a table pressed against the corner," +
-                "\n a weird circular white and blue object shines and moves on its own," +
-                "\n barely floating above the table," +
-                "\n thrumming in a minor chord over and over again with each slow rotation.",
-                "\n In the right corner front he entrance you just walked through" +
-                "\n theres a stairway leading downward into darkness," +
-                "\n soft whispers come from the dark.",
-                "\n In the left corner from the enterene there is a spiral staircase" +
-                "\n leading upwards towards light, water can be heard" +
-                "\n through the hole in the ceiling it would lead you through," +
-                "\n the stairs themselves slick with condensation",
-                "\n In the center of the room is a slightly raised platform with a pedestal on it," +
-                "\n on the pedestal is a large dusty book"
+                "\nYou walk into the dark room, the soft sounds of the outside" +
+                "\nworld fading behind you as you enter and the door shuts " +
+                "\nloudly behind you sending a tremor throughout the room." +
+                "\nYou notice that there are numerous exits too the room and " +
+                "\nobjects in the room",
+                "\nIn the far left corner theres a doorway, coated in moss and vines," +
+                "\ngently swaying in a unfelt but heard wind",
+                "\nIn the far right corner theres a table pressed against the corner," +
+                "\na weird circular white and blue object shines and moves on its own," +
+                "\nbarely floating above the table," +
+                "\nthrumming in a minor chord over and" +
+                "\nover again with each slow rotation.",
+                "\nIn the right corner front he entrance you just walked through" +
+                "\ntheres a stairway leading downward into darkness," +
+                "\nsoft whispers come from the dark.",
+                "\nIn the left corner from the enterence there is a spiral staircase" +
+                "\nleading upwards towards light, water can be heard" +
+                "\nthrough the hole in the ceiling it would lead you through," +
+                "\nthe stairs themselves slick with condensation",
+                "\nIn the center of the room is a slightly raised platform" +
+                "\nwith a pedestal on it," +
+                "\non the pedestal is a large dusty book"
 )
 
 
-initial_choice = ("what do you choose? (enter a number corresponding with an option)",
-    "1 Enter the mossy doorway",
-    "2 Enter the dark stairwell",
-    "3 Enter the spiral staircase",
-    "4 touch the magical sphere",
-    "5 Investigate the book"
+initial_choice = (
+    "\nwhat do you choose? (enter a number corresponding with an option)" +
+    "\n1 Enter the mossy doorway" +
+    "\n2 Enter the dark stairwell"+
+    "\n3 Enter the spiral staircase" +
+    "\n4 touch the magical sphere" +
+    "\n5 Investigate the book"
 
 )
 

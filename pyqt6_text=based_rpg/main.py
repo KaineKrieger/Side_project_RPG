@@ -8,7 +8,7 @@ def get_answer(question):
 def exposite(text: tuple):
     for paragraph in text:
         if paragraph != text[-1]:
-            input(paragraph +"...")
+            input(paragraph +"...[enter]")
         else:
             input(paragraph)
 
