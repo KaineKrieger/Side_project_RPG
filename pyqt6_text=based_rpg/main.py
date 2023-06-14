@@ -8,7 +8,8 @@ def get_answer(question):
 def exposite(text: tuple):
     for paragraph in text:
         if paragraph != text[-1]:
-            input(paragraph +" \033[3m\033[92m[Press Enter to continue...]\033]")
+            print(paragraph)
+            input("             Press Enter to continue...")
         else:
             input(paragraph)
 
